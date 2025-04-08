@@ -23,32 +23,32 @@ const navItems: NavItem[] = [
   {
     icon: <CalenderIcon />,
     name: "Licence",
-    path: "/calendar",
+    path: "/licence",
   },
   {
     icon: <Deal />,
     name: "Deals",
-    path: "/profile",
+    path: "/deals",
   },
   {
     icon: <UserCircleIcon />,
     name: "Contracts",
-    path: "/profile",
+    path: "/contracts",
   },
   {
     icon: <DollarLineIcon />,
     name: "Financial",
-    path: "/profile",
+    path: "/financial",
   },
   {
     icon: <Learning />,
     name: "Self Learning",
-    path: "/profile",
+    path: "/self-learning",
   },
   {
     icon: <FileIcon />,
     name: "Doc Checklist",
-    path: "/profile",
+    path: "/docs-page",
   },
   {
     icon: <UserCircleIcon />,
