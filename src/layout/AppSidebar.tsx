@@ -4,7 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { useSidebar } from "../context/SidebarContext";
-import { GridIcon, CalenderIcon, ChevronDownIcon, UserCircleIcon, HorizontaLDots,FileIcon, DollarLineIcon, Deal, Learning } from "../icons/index";
+import { GridIcon, CalenderIcon, ChevronDownIcon, UserCircleIcon, HorizontaLDots,FileIcon, DollarLineIcon, Deal, Learning, TableIcon, PieChartIcon, MailIcon } from "../icons/index";
 
 type NavItem = {
   name: string;
@@ -26,12 +26,12 @@ const navItems: NavItem[] = [
     path: "/licence",
   },
   {
-    icon: <Deal />,
+    icon: <PieChartIcon />,
     name: "Deals",
     path: "/deals",
   },
   {
-    icon: <UserCircleIcon />,
+    icon: <MailIcon />,
     name: "Contracts",
     path: "/contracts",
   },
@@ -41,7 +41,7 @@ const navItems: NavItem[] = [
     path: "/financial",
   },
   {
-    icon: <Learning />,
+    icon: <TableIcon />,
     name: "Self Learning",
     path: "/self-learning",
   },
@@ -228,7 +228,7 @@ const AppSidebar: React.FC = () => {
                 width={150}
                 height={40}
               /> */}
-            <h3 style={{paddingLeft:'1.5rem', fontSize:'1.5rem',fontWeight:'600'}}>Real-state</h3>
+            <h3 style={{paddingLeft:'1.5rem', fontSize:'1.5rem',fontWeight:'600'}}>Real Estate</h3>
 
               {/* <Image
                 className="hidden dark:block"
@@ -245,7 +245,7 @@ const AppSidebar: React.FC = () => {
             //   width={32}
             //   height={32}
             // />
-            <h3>Logo</h3>
+            <h6>Real Estate</h6>
           )}
         </Link>
       </div>
